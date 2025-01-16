@@ -1,2 +1,5 @@
-num_list = [int(x) for x in input("Enter numbers separated by space: ").split()]
-print("Sum of list:", sum(num_list))
+num_list = list(map(int, input("Enter numbers separated by spaces: ").split()))
+
+list_sum = sum(num_list)
+
+print("Sum of the list is: ", list_sum)
